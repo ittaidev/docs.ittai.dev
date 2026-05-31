@@ -1,0 +1,102 @@
+site_name: Ittai Rivero
+theme:
+  name: material
+  favicon: assets/img/me/me.png
+  icon:
+    logo: material/account
+  language: es
+  features:
+    - navigation.instant
+    - navigation.tabs           
+    - navigation.tabs.sticky    
+    - navigation.indexes  
+     
+  palette:
+    - scheme: default
+      primary: black
+      accent: black
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: white
+      accent: white
+      toggle:
+        icon: material/white-balance-sunny
+        name: Cambiar a modo claro
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
+
+nav:
+  - Inicio: index.md
+  - Proyectos:
+    - BitCLD:
+      - Resumen: bitcld/bitcld.md
+      - Introducción: 
+        - Contexto: bitcld/contexto.md
+        - Historia: bitcld/historia.md
+        - Objetivos: bitcld/objetivos.md
+        - Relación ASIR: bitcld/asir.md
+      - Diseño: bitcld/diseno.md
+      - Implementación:
+        - Guía técnica: bitcld/implantacion.md
+        - Hardware y especificaciones: bitcld/hardware.md
+        - Infraestructura Base:
+          - Servidor Ubuntu: bitcld/ubuntu.md
+          - Docker y Compose: bitcld/docker.md
+          - Tailscale (Red): bitcld/tailscale.md
+          - Cloudflare (Túneles): bitcld/cloudflare.md
+          - Caddy (Proxy): bitcld/caddy.md
+        - Servicios Desplegados:
+          - Dockge: bitcld/dockge.md
+          - AdGuard: bitcld/adguard.md
+          - Nextcloud: bitcld/nextcloud.md
+          - Inteligencia artificial: bitcld/ia.md
+          - Vaultwarden: bitcld/vaultwarden.md
+          - Uptime Kuma: bitcld/uptime-kuma.md
+          - Netdata: bitcld/netdata.md
+          - Zoho Mail: bitcld/zoho.md
+        - Resumen de servicios: bitcld/tabla.md
+      - Problemas detectados: bitcld/problemas.md
+      - Guía de uso:
+        - Uso diario: bitcld/uso-bitcld.md
+        - Iniciar servicio (Dockge): bitcld/uso-dockge.md
+        - Acceso Local: bitcld/uso-caddy.md
+        - Acceso Subdominio: bitcld/uso-cloudflare.md
+        - Tutoriales Servicios:
+          - Adguard Home: bitcld/uso-adguard.md
+          - Nextcloud: bitcld/uso-nextcloud.md
+          - Inteligencia artificial: bitcld/uso-ia.md
+          - Vaultwarden: bitcld/uso-vaultwarden.md
+          - Uptime Kuma: bitcld/uso-uptime-kuma.md
+          - Netdata: bitcld/uso-netdata.md
+          - Zoho Mail: bitcld/uso-zoho.md
+        - Acceso remoto (Tailscale): bitcld/uso-tailscale.md
+      - Riesgos y buenas prácticas: bitcld/riesgos.md
+      - Conclusión final: bitcld/conclusion.md
+      - Anexos (Otras tecnologías): 
+        - GitHub: bitcld/github.md
+        - Cloudflare Pages: bitcld/uso-pages.md
+        - Windows: bitcld/windows.md
+  - Trayectoria Profesional: 
+    - Currículum Vitae: cv.md
+
+
+
+copyright: Documentación personal de Ittai Rivero
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ittairivero
+      name: LinkedIn
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/ittaidev
+      name: Telegram
+    - icon: fontawesome/brands/github
+      link: https://github.com/ittaidev
+      name: GitHub
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/ittaidev
+      name: Twitter / X      

@@ -1,0 +1,9 @@
+# Conclusión general final
+
+La realización de nuestro proyecto, bitCLD, nos ha permitido crear una infraestructura  completa, moderna y coherente orientada a la privacidad y al control de nuestros datos. Durante el desarrollo del proyecto hemos podido trabajar con distintos servicios y tecnologías, los cuales seleccionamos y configuramos para lograr tener un ecosistema completo, moderno y realista. 
+
+Con la creación de nuestro ecosistema hemos podido trabajar con sistemas operativos linux (Ubuntu Server), contenedores (docker, docker compose y dockge), redes, seguridad y acceso remoto (Cloudflare, Tailscale y Caddy), servidores DNS (Adguard Home), almacenamiento en la nube (Nextcloud), inteligencia artificial tanto en local como con API (Open WebUI, Ollama y Groq), gestores de contraseña (Vaultwarden), monitoreo (Uptime Kuma y Netdata), correo electrónico (Zoho Mail)  y publicación de de páginas webs (GitHub, GitHub y Cloudflare Pages y Mkdocs material).
+
+Esto nos ha permitido obtener un enorme aprendizaje, dándonos la oportunidad de tener una visión más global de cómo se interrelacionan las distintas tecnologías en un entorno autoalojado gestionado por nosotros donde nos vimos obligados a tomar decisiones técnicas, resolver las incidencias que nos encontrábamos y optimizar al máximo para no sobrecargar nuestro servidor.
+
+Para concluir la valoración final de nuestro proyecto es muy positiva. BitCLD cumplió eficazmente con los objetivos que nos planteamos terminando con un ecosistema robusto, escalable y bien documentado, construido con decisiones bien justificadas y una clara orientación a la seguridad y privacidad. Además, gracias a los conocimientos que hemos adquirido a lo largo del proyecto tenemos una buena base técnica para mejorarlo y ampliarlo en el futuro permitiéndonos también, demostrar esos conocimientos de manera práctica a futuros empleadores.
