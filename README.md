@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="../../assets/img/me/me.png" alt="Ittai Rivero" width="300">
+  <img src="docs/assets/img/me/me.png" alt="Ittai Rivero" width="300">
 </p>
 
 
